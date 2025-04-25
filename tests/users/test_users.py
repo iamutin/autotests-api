@@ -1,5 +1,4 @@
 from http import HTTPStatus
-from typing import TYPE_CHECKING
 
 import pytest
 
