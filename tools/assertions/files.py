@@ -7,6 +7,7 @@ from clients.files.files_schema import (CreateFileRequestSchema,
                                         CreateFileResponseSchema,
                                         GetFileResponseSchema,
                                         FileSchema)
+from config import settings
 from tools.assertions.base import assert_equal
 from tools.assertions.errors import (assert_validation_error_response,
                                      assert_internal_error_response)
@@ -25,7 +26,8 @@ def assert_create_file_response(
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
     # Формируем ожидаемую ссылку на загруженный файл
-    expected_url = f"http://localhost:8000/static/{request.directory}/{request.filename}"
+    expected_url = (f"{settings.http_client.client_url}static/"
+                    f"{request.directory}/{request.filename}")
 
     assert_equal(str(response.file.url), expected_url, "url")
     assert_equal(response.file.filename, request.filename, "filename")
@@ -67,7 +69,7 @@ def assert_create_file_with_empty_filename_response(
         actual: ValidationErrorResponseSchema
 ):
     """
-    Проверяет, что ответ на создание файла с пустым именем файла соответствует ожидаемой валидационной ошибке.
+    Проверяет, что ответ на создание файла с пустым именем файла соответствует ожидаемой ошибке валидации.
 
     :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
     :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
@@ -75,7 +77,7 @@ def assert_create_file_with_empty_filename_response(
     expected = ValidationErrorResponseSchema(
         details=[
             ValidationErrorSchema(
-                type="string_too_short",  # Тип ошибки, связанной с слишком короткой строкой.
+                type="string_too_short",  # Тип ошибки, связанной со слишком короткой строкой.
                 input="",  # Пустое имя файла.
                 context={"min_length": 1},  # Минимальная длина строки должна быть 1 символ.
                 message="String should have at least 1 character",  # Сообщение об ошибке.
