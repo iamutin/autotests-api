@@ -1,9 +1,12 @@
+import allure
+
 from clients.errors_schema import (ValidationErrorSchema,
                                    ValidationErrorResponseSchema,
                                    InternalErrorResponseSchema)
 from tools.assertions.base import assert_length, assert_equal
 
 
+@allure.step("Check validation error")
 def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationErrorSchema):
     """
     Проверяет, что объект ошибки валидации соответствует ожидаемому значению.
@@ -19,6 +22,7 @@ def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationE
     assert_equal(actual.location, expected.location, "location")
 
 
+@allure.step("Check validation error response")
 def assert_validation_error_response(
         actual: ValidationErrorResponseSchema,
         expected: ValidationErrorResponseSchema
@@ -37,48 +41,7 @@ def assert_validation_error_response(
         assert_validation_error(actual.details[index], detail)
 
 
-def assert_create_file_with_empty_filename_response(actual: ValidationErrorResponseSchema):
-    """
-    Проверяет, что ответ на создание файла с пустым именем файла соответствует ожидаемой ошибке валидации.
-
-    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
-    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
-    """
-    expected = ValidationErrorResponseSchema(
-        details=[
-            ValidationErrorSchema(
-                type="string_too_short",  # Тип ошибки, связанной со слишком короткой строкой.
-                input="",  # Пустое имя файла.
-                context={"min_length": 1},  # Минимальная длина строки должна быть 1 символ.
-                message="String should have at least 1 character",  # Сообщение об ошибке.
-                location=["body", "filename"]  # Ошибка возникает в теле запроса, поле "filename".
-            )
-        ]
-    )
-    assert_validation_error_response(actual, expected)
-
-
-def assert_create_file_with_empty_directory_response(actual: ValidationErrorResponseSchema):
-    """
-    Проверяет, что ответ на создание файла с пустым значением директории соответствует ожидаемой ошибке валидации.
-
-    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
-    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
-    """
-    expected = ValidationErrorResponseSchema(
-        details=[
-            ValidationErrorSchema(
-                type="string_too_short",  # Тип ошибки, связанной со слишком короткой строкой.
-                input="",  # Пустая директория.
-                context={"min_length": 1},  # Минимальная длина строки должна быть 1 символ.
-                message="String should have at least 1 character",  # Сообщение об ошибке.
-                location=["body", "directory"]  # Ошибка возникает в теле запроса, поле "directory".
-            )
-        ]
-    )
-    assert_validation_error_response(actual, expected)
-
-
+@allure.step("Check internal error response")
 def assert_internal_error_response(
         actual: InternalErrorResponseSchema,
         expected: InternalErrorResponseSchema
