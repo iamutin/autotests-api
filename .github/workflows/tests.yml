@@ -1,6 +1,5 @@
 name: API tests
 
-# Указываем, когда будет запускаться данный workflow
 on:
   push:
     branches:
