@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI4VDE5OjQwOjM3LjUwMjgxNCIsInVzZXJfaWQiOiJjNWZmZjExZi0zMTcxLTQ2ZGUtYmI3MC0xNGZmY2U0MGVkMWUifQ.5IXn74v2Cf_0EG6H_OQHN4itPwZQ2rvhWnJicxMchOY' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Issue bit important nearly decade they.","maxScore":64,"minScore":1,"description":"Wall north style military likely. Produce article process rule move thus class month. Sing wind fast center size fire ability.","estimatedTime":"7 weeks","previewFileId":"01253cc6-68f2-47b0-983d-0b0416bb8065","createdByUserId":"c5fff11f-3171-46de-bb70-14ffce40ed1e"}'

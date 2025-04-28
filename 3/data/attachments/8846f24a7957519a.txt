@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI4VDE5OjQwOjM2LjkxMjI1NyIsInVzZXJfaWQiOiJlOTIyOTZjYi0xOGU2LTRmYzQtOTc0My1kNTM0YWQ0MGNlOGYifQ.-c3523qbrHNpAw_J-RHDNmOYona926Z43NVIffelork' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Manage whether tax Mr five.","maxScore":59,"minScore":10,"description":"Race study open baby protect. Fire shake long modern glass.\\nEat send oil others. North camera market brother. Develop head name age morning.","estimatedTime":"6 weeks","previewFileId":"ed617872-c0ef-454d-a449-a61484f5a7b1","createdByUserId":"e92296cb-18e6-4fc4-9743-d534ad40ce8f"}'

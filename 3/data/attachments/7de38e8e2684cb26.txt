@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI4VDE5OjQwOjM4LjE0NDA5OSIsInVzZXJfaWQiOiIzZWQxNTFhMS02YTAwLTRlMTMtOWU0YS1kNWM5MDAwMGM0NGQifQ.FvIZid_AvkJ60XC8K4OLZ-uM3boxYAmKCEHaHYEOdEk' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Energy budget bar certainly way opportunity.","maxScore":58,"minScore":16,"description":"Try land decision sell deep buy investment. Song end will store measure he.\\nConference east oil worry Republican. Pressure social line more away would food. Heart laugh add put remain another.","estimatedTime":"2 weeks","previewFileId":"650a6e68-ae75-404d-b0d9-02b2977424c7","createdByUserId":"3ed151a1-6a00-4e13-9e4a-d5c90000c44d"}'

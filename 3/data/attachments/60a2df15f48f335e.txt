@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI4VDE5OjQwOjM4LjcyNDcwNCIsInVzZXJfaWQiOiJhMzgwY2YzMS0wZDRlLTQ2ODMtYWFkNy1iMjY3MTY2YTZmMTkifQ.-Sdx4DUX2cU2mW3k9zNst2qvMe0Z3e2maxbjb8adqKg' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Any modern explain discussion toward every.","courseId":"2e224794-6f7c-4912-ae0e-ded2936e8181","maxScore":99,"minScore":13,"orderIndex":88,"description":"Only always television since western practice turn main. If ready along force indeed mouth. Surface indeed area realize particularly policy usually meeting.","estimatedTime":"9 weeks"}'

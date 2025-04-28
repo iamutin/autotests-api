@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI4VDE5OjQwOjM2LjMzMDIyMiIsInVzZXJfaWQiOiJiZTc5NmM0Zi0xZGNmLTRiN2YtODNjNC1mODBmOTE0ZGNmZjUifQ.p5dqkwbtCo7kOcR3rFUMzNuB8A504L058k9ejVcs6kQ' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Family simple while.","maxScore":83,"minScore":16,"description":"Create newspaper me participant. Life nor down bank respond.\\nParticularly community game into get. Security notice bad trial light behavior trip. Person above pattern for.","estimatedTime":"3 weeks","previewFileId":"7338da1a-03f0-4f01-8113-3350c95b083b","createdByUserId":"be796c4f-1dcf-4b7f-83c4-f80f914dcff5"}'

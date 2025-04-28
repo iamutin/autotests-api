@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI4VDE5OjQwOjM1LjczNTAwNCIsInVzZXJfaWQiOiIxODYyZDUwMi1hZTNjLTQ5ZjktYWQ4NC05ZGE2NDgxZTU2MTUifQ.ckDbJ4KNDp73njSZ5IYtZQRp29ByP3mVeDc4uDFnkMY' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ground worker wish million space keep while believe.","maxScore":73,"minScore":21,"description":"Finish official type write raise game political. Building and resource loss view drug. Certain glass detail statement visit.","estimatedTime":"9 weeks","previewFileId":"89fd98b6-ed52-46a2-bfbc-14f7d529140b","createdByUserId":"1862d502-ae3c-49f9-ad84-9da6481e5615"}'

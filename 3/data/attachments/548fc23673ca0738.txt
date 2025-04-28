@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI4VDE5OjQwOjM4LjE0NDA5OSIsInVzZXJfaWQiOiIzZWQxNTFhMS02YTAwLTRlMTMtOWU0YS1kNWM5MDAwMGM0NGQifQ.FvIZid_AvkJ60XC8K4OLZ-uM3boxYAmKCEHaHYEOdEk' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Able citizen positive full.","courseId":"f42f0071-d562-4c64-a87c-ae620ae68da7","maxScore":67,"minScore":7,"orderIndex":13,"description":"Long region board special. Difficult college information within. Eight certain owner poor account seat.\\nStation be growth recently international memory control. State mention price past remain.","estimatedTime":"6 weeks"}'

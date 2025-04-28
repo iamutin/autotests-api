@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI4VDE5OjQwOjM4LjcyNDcwNCIsInVzZXJfaWQiOiJhMzgwY2YzMS0wZDRlLTQ2ODMtYWFkNy1iMjY3MTY2YTZmMTkifQ.-Sdx4DUX2cU2mW3k9zNst2qvMe0Z3e2maxbjb8adqKg' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Economic into challenge resource.","maxScore":54,"minScore":8,"description":"Policy table fear live physical tax represent. Within part career young staff thought.\\nThough list public town. Assume home office kind young. Instead popular word unit similar down.","estimatedTime":"8 weeks","previewFileId":"3db886a0-b9f3-4256-8c1b-5d21d6b2bcc2","createdByUserId":"a380cf31-0d4e-4683-aad7-b267166a6f19"}'
