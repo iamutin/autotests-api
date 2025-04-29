@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI5VDE5OjE0OjU5LjM3Nzc3MCIsInVzZXJfaWQiOiIxN2JjMDY2OC0zZDk5LTRkYjQtOGNiOS02NzM4NmVmMDcyMjkifQ.h5dd4p9qbzMZuG4LmVXv-vSQ4O8jsoN_hF_LKUxmS88' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thank process approach husband ready.","maxScore":90,"minScore":11,"description":"Budget fall science compare dog join. Admit official myself.\\nResult region beat. Receive write community increase development black on. Tax attorney top he record care word.","estimatedTime":"5 weeks","previewFileId":"7d75de40-e58f-40fc-9f3f-8759d56ce003","createdByUserId":"17bc0668-3d99-4db4-8cb9-67386ef07229"}'

@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI5VDE5OjE1OjAxLjI0MTcxMiIsInVzZXJfaWQiOiI4NmJkMGQxMS04YTRjLTQ4NWQtYjFjNi0zNzkzNmZkYjlkMTAifQ.wHEvwmza74k7KNupsA7_gn-GzGRVqsYyKdZf2VzDIbQ' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Room them floor three garden report police safe.","maxScore":97,"minScore":21,"description":"Water three create probably industry grow create. Whether indicate scientist. Behind medical action level specific home.","estimatedTime":"8 weeks","previewFileId":"8ac802ef-ab36-4590-ad5f-8f82b7abe23b","createdByUserId":"86bd0d11-8a4c-485d-b1c6-37936fdb9d10"}'

@@ -1,0 +1,14 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make PATCH request to http://localhost:8000/api/v1/courses/eb90b9c4-2f19-497e-8d95-36e2fa388abe
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses/eb90b9c4-2f19-497e-8d95-36e2fa388abe
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:29 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Reduce side difference begin design attack social.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 75
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 10
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Region bring attorney everybody billion serve. Model recent century. Account sport media effort theory five travel.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI5VDE5OjE0OjU4Ljc5MzM5MyIsInVzZXJfaWQiOiI0YWI0NDM3Mi1iYzliLTRmNWUtOTRmMy03YjE3ZmFlY2MzMWEifQ.xm8w_HfflO4uV3giYd4WtskbBQjF7TpcXE0Ltuxsl2I' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Future window cultural garden physical our go.","maxScore":71,"minScore":18,"description":"Suffer participant rise religious almost administration data. Recently effort after former old event popular.","estimatedTime":"8 weeks","previewFileId":"ab5e96fc-274f-4f75-b4f0-93d0aa3a95a4","createdByUserId":"4ab44372-bc9b-4f5e-94f3-7b17faecc31a"}'

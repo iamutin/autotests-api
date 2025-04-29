@@ -1,0 +1,15 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:99 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Customer great dream fund government air.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 80
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 3
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Three trial road arm reveal compare card. One process boy marriage put improve short.
+Computer build send skill understand. Between hair few cover attention. Help I act opportunity form spring long.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'preview_file_id' equals to 73e46d00-e44d-4db7-82a3-50ee9ffe33d1
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'created_by_user_id' equals to c8a77545-3578-435e-b038-b27a5937aaf9
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

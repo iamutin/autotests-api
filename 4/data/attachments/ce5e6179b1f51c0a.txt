@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI5VDE5OjE1OjAwLjAxNTEzNCIsInVzZXJfaWQiOiJmNWMwNDIyYy0yYzM3LTQ4MzYtOTY0YS0zN2JmZjBkZWEwMzQifQ.-Bwpe5o1YThUEp1Nkzk9wR38Y--mTIlOVMgr6k33DyE' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discover piece beyond relationship.","courseId":"9c83bb2e-fbcd-479b-8d71-2a2ba44c5ebd","maxScore":98,"minScore":14,"orderIndex":61,"description":"Figure know like receive music. Water artist suffer travel door yeah.\\nCatch second pass policy doctor they. Service major mission woman.\\nCoach total of skill book price.","estimatedTime":"1 weeks"}'

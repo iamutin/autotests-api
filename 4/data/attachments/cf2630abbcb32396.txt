@@ -1,0 +1,29 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=4bde2e64-1890-442d-97d4-f58b97695c43
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=4bde2e64-1890-442d-97d4-f58b97695c43
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:80 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check that length of 'courses' equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:55 Check course
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to dbdd9f00-5989-4167-a3a2-691561deae26
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Prove woman glass half brother find discussion.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 74
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 25
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Center less ever they small enter them. Source yet management tax meeting.
+Few look maybe state in.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 6 weeks
+INFO     FILES_ASSERTIONS:files.py:49 Check file
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to e0af9c25-585e-460a-9e2f-feea12a0a79a
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'url' equals to http://localhost:8000/static/tests/411f3a30-7038-41b3-8afe-ed0cab38e06c.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'filename' equals to 411f3a30-7038-41b3-8afe-ed0cab38e06c.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'directory' equals to tests
+INFO     USERS_ASSERTIONS:users.py:41 Check user
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 4bde2e64-1890-442d-97d4-f58b97695c43
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'email' equals to raveneaton@example.org
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'last_name' equals to Brown
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'first_name' equals to Jose
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'middle_name' equals to Gregory
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

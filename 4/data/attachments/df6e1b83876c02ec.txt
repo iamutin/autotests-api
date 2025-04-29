@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI5VDE5OjE1OjAxLjgyNDEzNSIsInVzZXJfaWQiOiJkNGU4YTQwOC1lN2FjLTQ4YjEtODA0Zi1kM2QzMzhmZDkxN2QifQ.nW07Dqu14ugFO_P3PTb4_LZX-lzGSAOM4Xau4A_fUJI' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sing eight religious later test my gun.","courseId":"07ec3cc8-03f1-4994-ba9e-80bfa4812111","maxScore":62,"minScore":30,"orderIndex":21,"description":"Phone religious later imagine. Special time concern child old.\\nQuality north series. Goal second pay treat hot offer.\\nGovernment these of. Teacher east look program bad fight project.","estimatedTime":"4 weeks"}'
