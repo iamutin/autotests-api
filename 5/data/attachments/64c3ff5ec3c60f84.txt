@@ -1,0 +1,15 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:99 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Couple old other girl population.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 92
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 28
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Think poor fish state hand nothing including. Color what response final.
+Nothing school girl. Listen western television upon performance guy.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'preview_file_id' equals to 3b7e50d8-7d85-4a65-9afd-7ccd010b6cd9
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'created_by_user_id' equals to 1837ea8d-472f-4aad-a972-f46adb0b29ff
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

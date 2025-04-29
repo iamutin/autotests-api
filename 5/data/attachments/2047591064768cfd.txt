@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI5VDE5OjQ5OjAwLjIxMTI2MCIsInVzZXJfaWQiOiJiZDBhZWZiMC1hNjUwLTQ1NjktODVhMC0yNzg5NDdjN2JhNDIifQ.et5qBM37UBxjNT7fSr_2nJRzvW9riwQn-WCRiRutkFs' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sport your of hour mother staff mean structure.","maxScore":80,"minScore":28,"description":"We evidence stuff because less radio model. Chance walk respond government others.\\nHot look happy rule. Condition road film fill. Responsibility learn everybody.\\nMany answer population dinner.","estimatedTime":"5 weeks","previewFileId":"55f9ce8a-3bc6-4efc-a947-57ae145c328a","createdByUserId":"bd0aefb0-a650-4569-85a0-278947c7ba42"}'

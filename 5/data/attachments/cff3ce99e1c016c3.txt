@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTI5VDE5OjQ4OjU4LjMzOTY5MSIsInVzZXJfaWQiOiIwMDk0MjhiYy00MGUzLTQ1OWEtOWFjNC0wZTVjMjdjNjdjNGQifQ._msSeJSUbEYHJBVEGYdwfbeSX4bFHhMcYaxSvr5jMkE' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Since sign break cause.","courseId":"1ce6b9e6-a86f-418f-bcca-19a83e9dd0eb","maxScore":89,"minScore":29,"orderIndex":24,"description":"Social land just protect choose. Whole on miss military start quickly.\\nNor night receive him. Effort suffer cause machine choice official.","estimatedTime":"6 weeks"}'
