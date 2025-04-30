@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDEzOjIwOjI4LjcyNjkwNSIsInVzZXJfaWQiOiI3N2Q3MDFkOS00NjM2LTQ3MzEtOWMwNC1iOTJmNmZjYjFlOTEifQ.BzAbJbcqgjfjKz3gBz9BM3DCF3yeNXv-9xGMKDUP-M8' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"There important stuff agency style responsibility thank.","maxScore":96,"minScore":13,"description":"Town try perhaps decide upon watch Mr another. Visit dream market commercial great tell pretty.\\nLive land effort watch result color grow from.","estimatedTime":"9 weeks","previewFileId":"3624905e-c1b5-4965-af0b-b9ec7e0aac0a","createdByUserId":"77d701d9-4636-4731-9c04-b92f6fcb1e91"}'

@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDEzOjIwOjMyLjI2OTI2MiIsInVzZXJfaWQiOiI0ODU3OWFmMC0xZTgwLTQ5NTEtYTg1ZS1kZDIzNzU0OTE3ZjAifQ.8cW41geR7DCCkuSweNR7qnlZghO_L9ku0s4K_DSwvI0' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Class bit fast party floor.","maxScore":63,"minScore":23,"description":"Personal place seek low wall past deal game. Guess civil court bill. Officer book lot town our drug.","estimatedTime":"5 weeks","previewFileId":"21be1c17-4af3-4224-acc4-285b24b0d319","createdByUserId":"48579af0-1e80-4951-a85e-dd23754917f0"}'

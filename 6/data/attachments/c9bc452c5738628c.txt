@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDEzOjIwOjMxLjk5NTkxOSIsInVzZXJfaWQiOiJiNDA1NWIyYS1jMjQ0LTQ4NjAtYjE4ZS00NTFkN2I5NWFlYWQifQ.Yz85kpbpbarsfTVcO5yJNKmOK8Q3P4kp0b4wzaY1bKE' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Measure raise event three.","maxScore":74,"minScore":15,"description":"Fine continue both course movie.\\nEach organization soldier business. North wait mean institution.\\nTough second success public possible. Actually floor employee truth fact often.","estimatedTime":"3 weeks","previewFileId":"012b67e0-a159-4264-822f-4558cdbe8ad0","createdByUserId":"b4055b2a-c244-4860-b18e-451d7b95aead"}'

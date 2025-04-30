@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDEzOjIwOjI5LjYxMDc3OCIsInVzZXJfaWQiOiI4NzY2ZTIxMi02ZGM1LTQ2NDMtOWM2Ni1kM2UxOWRjNWY2YzYifQ.wQWGTNrzu4fFik36WPInMtH-NFd72nhtz3yfMaEl8j0' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Give manager career Republican.","maxScore":69,"minScore":22,"description":"Candidate manager dream cost great success. Other police fund card writer however likely. Who future strategy talk story.","estimatedTime":"5 weeks","previewFileId":"ed1c83e0-dce9-4f90-80c7-e2d9995b860f","createdByUserId":"8766e212-6dc5-4643-9c66-d3e19dc5f6c6"}'

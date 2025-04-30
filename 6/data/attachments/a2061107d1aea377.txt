@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDEzOjIwOjI5Ljg4MzExNCIsInVzZXJfaWQiOiI1Yzg1YzQ3ZC1hYzVlLTQzYmYtOGFjMi00NzYxN2JhZjAyOTgifQ.bVnVhU-R2rdfJJV4HnULhpZVB18Xxw6gCuFKFMhwd5Q' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Model gas always late.","maxScore":58,"minScore":13,"description":"Something fish form necessary under some. Fear son loss meeting chance he. Ever popular Democrat recently grow peace.\\nEveryone able spend.","estimatedTime":"1 weeks","previewFileId":"55b5f7f5-799f-4a21-ae24-88457a14a767","createdByUserId":"5c85c47d-ac5e-43bf-8ac2-47617baf0298"}'

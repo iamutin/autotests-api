@@ -1,0 +1,10 @@
+curl -X PATCH http://localhost:8000/api/v1/exercises/d6af58d5-e8fe-4dd1-b47f-a84f7028e656 \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDEzOjIwOjMwLjc5NjkyMyIsInVzZXJfaWQiOiIzMmMyMzNjZi1hZTBkLTRhOTgtODRkYy1jMGEzOGM0OTUyZTUifQ.k8KUxS_PJwvqmKQB5RfBR76B_mqMzmrql15VZT4gdOs' \
+  -H 'content-length: 236' \
+  -H 'content-type: application/json' \
+  -d '{"title":"As past side analysis personal can trouble.","maxScore":82,"minScore":23,"orderIndex":16,"description":"Use play source. People even big her despite glass. Spend purpose as than doctor serious true.","estimatedTime":"2 weeks"}'

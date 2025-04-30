@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDEzOjIwOjMwLjc5NjkyMyIsInVzZXJfaWQiOiIzMmMyMzNjZi1hZTBkLTRhOTgtODRkYy1jMGEzOGM0OTUyZTUifQ.k8KUxS_PJwvqmKQB5RfBR76B_mqMzmrql15VZT4gdOs' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Picture fine she strong computer support.","maxScore":92,"minScore":21,"description":"Save resource drop actually moment analysis car. Money race much tell peace.\\nCall world clearly issue might city music. High risk certain debate.\\nWhile speak once until.","estimatedTime":"9 weeks","previewFileId":"2abc47b6-51fe-449b-a3f4-243d70e1db9e","createdByUserId":"32c233cf-ae0d-4a98-84dc-c0a38c4952e5"}'

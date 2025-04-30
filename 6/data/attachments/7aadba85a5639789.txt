@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDEzOjIwOjI4LjE0NTc0NSIsInVzZXJfaWQiOiI3MDdlZDRhOC0xMTE0LTQ0NWMtOWU5Mi05ODg5NDY5ZGIzMDQifQ.E2kj5jLAkEPaphGc0CZF7orA0UlyWwLbrpJkkl-gzuQ' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Teach use each.","maxScore":88,"minScore":10,"description":"Question themselves concern voice summer war. Range of seek.\\nSuccess argue audience Mrs way. Design likely ahead state politics. Happy much less.","estimatedTime":"4 weeks","previewFileId":"7242fb35-92b6-48fb-a321-b93ee5dd527f","createdByUserId":"707ed4a8-1114-445c-9e92-9889469db304"}'

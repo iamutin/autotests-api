@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDEzOjIwOjMyLjI2OTI2MiIsInVzZXJfaWQiOiI0ODU3OWFmMC0xZTgwLTQ5NTEtYTg1ZS1kZDIzNzU0OTE3ZjAifQ.8cW41geR7DCCkuSweNR7qnlZghO_L9ku0s4K_DSwvI0' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Because return those court those.","courseId":"98afdfce-1f45-4dfc-834f-4567248f4c34","maxScore":93,"minScore":26,"orderIndex":34,"description":"Once black subject note outside reason environment yes. Dog difficult walk no push spring. Case model long figure line.","estimatedTime":"1 weeks"}'

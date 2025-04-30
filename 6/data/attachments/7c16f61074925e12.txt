@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDEzOjIwOjMxLjk5NTkxOSIsInVzZXJfaWQiOiJiNDA1NWIyYS1jMjQ0LTQ4NjAtYjE4ZS00NTFkN2I5NWFlYWQifQ.Yz85kpbpbarsfTVcO5yJNKmOK8Q3P4kp0b4wzaY1bKE' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Determine economic catch increase.","courseId":"70384390-c3e2-44a0-8257-ab34ee1ce5c2","maxScore":60,"minScore":29,"orderIndex":40,"description":"Author rate price woman. Increase teacher fire majority.\\nTown husband begin focus.\\nCreate drop writer five become forward become difference.","estimatedTime":"10 weeks"}'

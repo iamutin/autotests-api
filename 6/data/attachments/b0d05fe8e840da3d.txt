@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDEzOjIwOjI5Ljg4MzExNCIsInVzZXJfaWQiOiI1Yzg1YzQ3ZC1hYzVlLTQzYmYtOGFjMi00NzYxN2JhZjAyOTgifQ.bVnVhU-R2rdfJJV4HnULhpZVB18Xxw6gCuFKFMhwd5Q' \
+  -H 'content-length: 262' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thought maybe sound consider campaign human risk.","courseId":"a17db57e-5964-426f-bd74-cd4bf047aaed","maxScore":57,"minScore":30,"orderIndex":65,"description":"Wear outside dog into boy ok eight. Herself involve such career.","estimatedTime":"2 weeks"}'
