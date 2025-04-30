@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDE1OjEyOjAwLjIxMzcwMiIsInVzZXJfaWQiOiI1YzQ4ZmY3MS1jMWQyLTRkNmEtYTUxNy1hNGMzOWU3NmNmYmMifQ.bYZVknkTPIubSk3mizh80VcNrYmM5r3ELZgl2e46zBM' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Effect like once thought cover.","maxScore":73,"minScore":12,"description":"Few total what past. Other direction civil main civil bar think.\\nWe next identify by high front. Practice focus road bed. Look case force lead.","estimatedTime":"6 weeks","previewFileId":"0d967dde-ce22-403e-9fbe-a7452617529d","createdByUserId":"5c48ff71-c1d2-4d6a-a517-a4c39e76cfbc"}'

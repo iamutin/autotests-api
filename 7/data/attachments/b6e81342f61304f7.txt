@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDE1OjEyOjAwLjQ4NzgwMiIsInVzZXJfaWQiOiI4MTdiYjRkYy1iYjQwLTQ1ZjUtYWIyNC00MjZhYjdiMjU0NjcifQ.NI6IWWRF5TG-DnXFKm4P2egk8TY-0Pbq0hatqniOrII' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Five six professional structure sell either.","courseId":"313d61bc-a02e-47ef-b11e-b5b48034d7e1","maxScore":97,"minScore":10,"orderIndex":65,"description":"Address level early whom. Serious themselves cell field suggest western. Relationship involve possible investment task.\\nOr soldier lose scene pattern most. Lead more present.","estimatedTime":"3 weeks"}'

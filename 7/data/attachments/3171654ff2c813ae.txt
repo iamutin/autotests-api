@@ -1,0 +1,22 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises?courseId=75241714-cff8-40db-a40b-de85dfad06de
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=75241714-cff8-40db-a40b-de85dfad06de
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:131 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:71 Check that length of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:47 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 04786d78-1138-470d-afc1-41249a1ce16a
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to House read thousand whole little particularly.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'course_id' equals to 75241714-cff8-40db-a40b-de85dfad06de
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 52
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 14
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'order_index' equals to 20
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Short these sport nothing dog card.
+Great sure both society. Suddenly exactly likely method book. Change gun fish speech production.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDE1OjEyOjAxLjM5MDQ4NiIsInVzZXJfaWQiOiJkYzZjOWMwZS01MDEzLTQxYzUtOTgzYS05OTI1Y2UxZjEwYmYifQ.aQI738Ueul6FkwfpHrPS58KlZG512xW17PuukXCqK50' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"My catch fire long time manage.","maxScore":98,"minScore":11,"description":"Imagine trouble lot soldier receive partner among of. Than big computer space.\\nScience across today small floor we it.","estimatedTime":"9 weeks","previewFileId":"af98c46b-3594-46c1-8472-c8033a9b04f3","createdByUserId":"dc6c9c0e-5013-41c5-983a-9925ce1f10bf"}'

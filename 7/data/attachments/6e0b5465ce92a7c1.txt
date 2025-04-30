@@ -1,0 +1,14 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:99 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Finally street case though ago price soon.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 66
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 12
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Support top activity shake game attack possible. Garden somebody blood. Debate reach finally stock.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'preview_file_id' equals to e1dd7c9a-a8d3-4a86-98bf-9e7d5835d28b
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'created_by_user_id' equals to f7237e54-dac8-41f0-9694-13397999aa06
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

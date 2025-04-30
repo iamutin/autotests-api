@@ -1,0 +1,10 @@
+curl -X PATCH http://localhost:8000/api/v1/courses/64ccf808-4e8c-401d-a3a9-98aed56bd2bb \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDE1OjExOjU5LjMxNjE5MyIsInVzZXJfaWQiOiI2ZDQxOGFjZC00NzEyLTQzOWItOTc2MS0xOTc3OTUwYTQ5MTQifQ._UOtP9qCHDBpoGJccueE_42PmXLlcOZndP5q1xainYU' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Own tree in save.","maxScore":76,"minScore":19,"description":"Knowledge increase drop skin land. Whether I huge member try deal. No my participant certain story oil part.\\nCost hold industry PM edge first. Experience growth across they west himself PM.","estimatedTime":"10 weeks"}'

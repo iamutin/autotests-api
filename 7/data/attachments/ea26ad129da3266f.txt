@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDE1OjExOjU5LjA0MDc1NSIsInVzZXJfaWQiOiJmNzIzN2U1NC1kYWM4LTQxZjAtOTY5NC0xMzM5Nzk5OWFhMDYifQ.JdGj4-czlnp2ZBHcQhi9O5nzw4aZLmIIccSg6ANjeW8' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Finally street case though ago price soon.","maxScore":66,"minScore":12,"description":"Support top activity shake game attack possible. Garden somebody blood. Debate reach finally stock.","estimatedTime":"3 weeks","previewFileId":"e1dd7c9a-a8d3-4a86-98bf-9e7d5835d28b","createdByUserId":"f7237e54-dac8-41f0-9694-13397999aa06"}'

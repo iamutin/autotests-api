@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDE1OjEyOjAxLjY2NTA0NSIsInVzZXJfaWQiOiJhMmMyOGQ5My04YzZiLTQ1NTQtYjNlYy1kMTQ4ODI4ZmIzMWIifQ.vycvHc7EAQ7bqEGcGtZd19H8RZJioDodJZgMgTdNeXU' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"If there agency before piece.","maxScore":94,"minScore":15,"description":"Fine better section he strong expert. Who learn development three fine night. Visit now value show nature trip anyone. Practice read easy firm none continue.","estimatedTime":"4 weeks","previewFileId":"b4214136-9b40-45b7-866e-843389dd8125","createdByUserId":"a2c28d93-8c6b-4554-b3ec-d148828fb31b"}'

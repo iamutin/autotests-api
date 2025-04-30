@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDE1OjEyOjAyLjU3Njc3OCIsInVzZXJfaWQiOiIwMTY4MjdkNi01YzBjLTQ1MDEtOWQ5MS1lNTA2ZDk1MmIxMGUifQ.unA_kIachf8wYTfTz4D0-abOegQtOscTbEDwuunKasQ' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leave no war activity.","maxScore":60,"minScore":3,"description":"Prove bag partner not deal. Citizen walk answer radio history. Find not tonight somebody Republican. Executive nature small sport collection federal.","estimatedTime":"8 weeks","previewFileId":"76e84ce7-cc6a-41ab-9c3e-41b7a4c725f0","createdByUserId":"016827d6-5c0c-4501-9d91-e506d952b10e"}'

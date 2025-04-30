@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDE1OjExOjU3LjkwNjk1MCIsInVzZXJfaWQiOiIxNDIxZDYxOS1iNGU0LTQyNTQtOTQwZi00YmVkMGRjNjllNWYifQ.zHfjN_-jOFdL_2-_fWIHLptF1wX-5yUFSGnpGS_Toc0' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rise especially some but change Mr see play.","maxScore":73,"minScore":3,"description":"Practice return fight might. Within a challenge forward industry. Piece past structure off.\\nSuccessful call simple live many stuff stand. Ok girl box all job. Spend or rise above identify her on.","estimatedTime":"8 weeks","previewFileId":"10e32092-251f-4c37-b7b1-999b08f3a2a9","createdByUserId":"1421d619-b4e4-4254-940f-4bed0dc69e5f"}'

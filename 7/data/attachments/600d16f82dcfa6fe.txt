@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/courses \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDE1OjEyOjAwLjQ4NzgwMiIsInVzZXJfaWQiOiI4MTdiYjRkYy1iYjQwLTQ1ZjUtYWIyNC00MjZhYjdiMjU0NjcifQ.NI6IWWRF5TG-DnXFKm4P2egk8TY-0Pbq0hatqniOrII' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Image behind coach our I increase girl.","maxScore":80,"minScore":17,"description":"Deal style thus rich will nice. Physical increase continue economic suffer risk financial. Firm if interest Mr out.","estimatedTime":"10 weeks","previewFileId":"11b5c991-5d26-43cb-baea-613dc1afc15b","createdByUserId":"817bb4dc-bb40-45f5-ab24-426ab7b25467"}'

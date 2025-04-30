@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDE1OjEyOjAwLjIxMzcwMiIsInVzZXJfaWQiOiI1YzQ4ZmY3MS1jMWQyLTRkNmEtYTUxNy1hNGMzOWU3NmNmYmMifQ.bYZVknkTPIubSk3mizh80VcNrYmM5r3ELZgl2e46zBM' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Class term far by sense simply standard.","courseId":"014c7fed-72bc-490a-aae0-cb4577c4ae1d","maxScore":97,"minScore":29,"orderIndex":15,"description":"Teach eat hear wind speech. Really section kind rate painting indicate wide. Member professional upon least.\\nTurn difference benefit that song. At image bank leader certainly.","estimatedTime":"10 weeks"}'

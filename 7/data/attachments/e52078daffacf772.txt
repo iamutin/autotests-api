@@ -1,0 +1,30 @@
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=1421d619-b4e4-4254-940f-4bed0dc69e5f
+INFO     HTTP_CLIENT:event_hooks.py:37 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=1421d619-b4e4-4254-940f-4bed0dc69e5f
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:80 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:71 Check that length of 'courses' equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:55 Check course
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 2c6f2384-bb3c-4ce3-b975-422bebc697df
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'title' equals to Rise especially some but change Mr see play.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'max_score' equals to 73
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'min_score' equals to 3
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'description' equals to Practice return fight might. Within a challenge forward industry. Piece past structure off.
+Successful call simple live many stuff stand. Ok girl box all job. Spend or rise above identify her on.
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'estimated_time' equals to 8 weeks
+INFO     FILES_ASSERTIONS:files.py:49 Check file
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 10e32092-251f-4c37-b7b1-999b08f3a2a9
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'url' equals to http://localhost:8000/static/tests/2683f18e-3606-4d6d-b803-2f8b7948eb30.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'filename' equals to 2683f18e-3606-4d6d-b803-2f8b7948eb30.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'directory' equals to tests
+INFO     USERS_ASSERTIONS:users.py:41 Check user
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'id' equals to 1421d619-b4e4-4254-940f-4bed0dc69e5f
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'email' equals to jennifer37@example.org
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'last_name' equals to Barron
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'first_name' equals to Claudia
+INFO     BASE_ASSERTIONS:base.py:37 Check that 'middle_name' equals to Jonathan
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

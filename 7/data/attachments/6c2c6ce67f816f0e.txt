@@ -1,0 +1,10 @@
+curl -X POST http://localhost:8000/api/v1/exercises \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA0LTMwVDE1OjEyOjAxLjY2NTA0NSIsInVzZXJfaWQiOiJhMmMyOGQ5My04YzZiLTQ1NTQtYjNlYy1kMTQ4ODI4ZmIzMWIifQ.vycvHc7EAQ7bqEGcGtZd19H8RZJioDodJZgMgTdNeXU' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nice find goal.","courseId":"a150c8a4-5fcc-44f9-901b-f57d2ad834d6","maxScore":74,"minScore":19,"orderIndex":27,"description":"Strategy fill activity put news society player. Important decade put list.\\nPast always good top similar. Yeah push share accept civil become professor. Officer least car fight.","estimatedTime":"3 weeks"}'
